@@ -33,7 +33,7 @@
   .site-nav {
     order: 3; /* Ensures that the site navigation comes after the dark mode button */
   }
-  
+  // add a comment
   /* If you want the title and the button to stay on the same line on smaller screens, you might need media queries to adjust font sizes or padding */
   @media (max-width: 768px) {
     .site-title {
