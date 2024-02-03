@@ -4,7 +4,7 @@ title: "Connecting a Custom Domain name to GitHub Pages"
 date: 2024-02-02
 ---
 
-I made this blog with Jekyll, which was easy to set up. I quickly got the basic structure using **Jekyll -new**, then uploaded it to GitHub and named the repository [calebkivindyo.github.io](http://calebkivindyo.github.io/) because I wanted that to be the web address if I used **GitHub Pages** to host it. But, GitHub gave it a longer, less appealing address: [mutua-caleb.github.io/calebekivindyo.github.io](http://mutua-caleb.github.io/calebekivindyo.github.io). So, I decided to use a domain I bought last year, [calebkivindyo.com](http://calebkivindyo.com/), and I want to talk about how I did that here.
+I made this blog with Jekyll, which was easy to set up. I quickly got the basic structure using **Jekyll -new**, then uploaded it to GitHub and named the repository [calebkivindyo.github.io](http://calebkivindyo.github.io/) because I wanted that to be the web address if I used **GitHub Pages** to host it. But, GitHub gave it a longer, less appealing address: [mutua-caleb.github.io/calebkivindyo.github.io](http://mutua-caleb.github.io/calebekivindyo.github.io). So, I decided to use a domain I bought last year, [calebkivindyo.com](http://calebkivindyo.com/), and I want to talk about how I did that here.
 
 If you're already using GitHub Pages to host your blog (simply navigate to your repository, access the settings, and locate the 'Pages' section), here's what to do next:
 

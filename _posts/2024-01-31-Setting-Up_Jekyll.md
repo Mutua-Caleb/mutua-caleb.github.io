@@ -10,6 +10,6 @@ If you want to change the blog title to <b>"Everyday TILs,"</b> open <code> conf
 
 To delete the About page, go to the folder <code>/mnt/c/personal_blog/Everydaytils/_site/.</code> Find about.markdown and delete it.
 
-If <b>"Your awesome title"</b> shows up twice in the footer and you want to remove it, you need to edit the theme files. Jekyll uses a theme called minima. Find where minima is on your computer by typing bundle info --path minima in a Linux terminal. It will show a path like <code> /usr/local/lib/ruby/gems/2.6.0/gems/minima-2.5.1.</code>
+If <b>"Your awesome title"</b> shows up twice in the footer and you want to remove it, you need to edit the theme files. Jekyll uses a theme called Minima. Find where Minima is on your computer by typing <code> bundle info --path minima </code> in a Linux terminal. It will show a path like <code> /usr/local/lib/ruby/gems/2.6.0/gems/minima-2.5.1.</code>
 
 Go to that folder, then to _includes. Open <code> footer.html </code> Find lines with <code> site.title </code> and put comment marks <!-- --> around them to hide the titles.
