@@ -1,0 +1,46 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+/* This is an example of CSS that might be added to assets/css/style.css */
+.dark-mode-button {
+    /* Adjust position to align with the circled area */
+    float: right; /* or you may use flexbox, grid, etc. */
+    margin-right: 20px; /* adjust as necessary */
+    /* Other styling as needed */
+  }
+
+  /* This targets the wrapper div in your header to display its children in a flex row */
+.wrapper {
+    display: flex;
+    align-items: center; /* Vertically center-aligns flex items */
+    justify-content: space-between; /* Spreads out the flex items; adjust as needed */
+  }
+  
+  /* This targets the site title; adjust padding/margin as needed */
+  .site-title {
+    margin-right: auto; /* Keeps the title on the left and pushes other items to the right */
+  }
+  
+  /* This targets the dark mode button; adjust padding/margin as needed */
+  .dark-mode-button {
+    margin-left: 20px; /* Adds space between the site title and the button, adjust as needed */
+    order: 2; /* Ensures that the dark mode button comes after the site title */
+  }
+  
+  /* If you also have a site navigation, you might want to ensure it comes after the dark mode button */
+  .site-nav {
+    order: 3; /* Ensures that the site navigation comes after the dark mode button */
+  }
+  
+  /* If you want the title and the button to stay on the same line on smaller screens, you might need media queries to adjust font sizes or padding */
+  @media (max-width: 768px) {
+    .site-title {
+      font-size: smaller; /* Adjust as needed */
+    }
+    .dark-mode-button {
+      margin-left: 10px; /* Adjust as needed */
+    }
+  }
+  
