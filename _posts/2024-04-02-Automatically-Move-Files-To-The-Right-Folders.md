@@ -62,9 +62,9 @@ def job():
     print("Running Job...") 
     move_files() 
 
-#Schedule the job to run daily at 10:00 PM 
+#Schedule the job to run daily at 13:00 hrs
 
-schedule.every().day.at("13:17").do(job)
+schedule.every().day.at("13:00").do(job)
 
 while True: 
     schedule.run_pending() 
