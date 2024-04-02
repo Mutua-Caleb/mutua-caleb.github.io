@@ -4,7 +4,7 @@ title: "Automatically Move files to the Right Folders"
 date: 2024-04-02
 ---
 
-My computer is usually messy. When I download files from the internet, they all end up in my Windows Download folder. However, when I later check my Downloads folder, everything looks disorganized and cluttered. Honestly, this affects my ability to think clearly. Surprisingly, maintaining organized digital space is crucial for my mental well-being. I'm striving to improve my "digital hygiene."
+My computer is usually messy. When I download files from the internet, they all end up in my Windows Download folder. However, when I later check my Downloads folder, everything looks disorganized and cluttered. Honestly, this affects my ability to think clearly. Surprisingly, maintaining organized digital space is crucial for my mental well-being. 
 
 Enough with the anecdotes. I've devised a solution: whenever I download files such as **epub**, **pdf**, **m4a**, **mp3**, or **weba** from the internet, I want them to be automatically sorted into their respective folders. For example, **epub** and **pdf** files should go to *C:\Users\User\Documents*, **m4a**, **mp3**, and **weba** files to *C:\Users\User\Music*, and **mp4** files to *C:\Users\User\Videos.*
 
