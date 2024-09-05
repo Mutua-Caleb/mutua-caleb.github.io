@@ -61,7 +61,7 @@ process_sequence([1,4,5]) #Output: starts with 1, remaining: [4,5]
 
 - Here, the pattern `[1, *rest]` is using **deconstruction** to match a list starting with `1` and assigning the rest of the list to the variable `rest` 
 
-1. ### Matching classes and object attributes 
+ 3. ####   Matching classes and object attributes 
 - When Matching classes, Python can match against the type of the object and its attributes. Here's where `__match_args__` comes into play
 
 ```Python 
@@ -89,7 +89,7 @@ describe_point(p1) #Output: On the x-axis at 1
 
 - Here, `__match_args__` allows matching the attributes `x` and `y` positionally 
 
-### 4. Guard Clauses
+4. ####  Guard Clauses
 - You can add conditions(guards) to patterns to further refine matching logic: 
   
 ```Python
