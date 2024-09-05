@@ -83,7 +83,8 @@ class Point:
 p1 = Point(1,0)        
 describe_point(p1) #Output: On the x-axis at 1 
 ```
-Here, `__match_args__` allows matching the attributes `x` and `y` positionally 
+
+- Here, `__match_args__` allows matching the attributes `x` and `y` positionally 
 
 ### 4. Guard Clauses
 - You can add conditions(guards) to patterns to further refine matching logic: 
@@ -98,10 +99,12 @@ def classify_number(n):
             print("Positive number")
 
 classify_number(-5) #Output: Negative number
-      
 ```
+
+## API Simulation Example 
 - Let's simulate a simple API using `match` and `__match_args__` for handling different types of responses. we can treat the API as a service that returns various responses(success, error, or different kinds of data), and we'll use structural pattern matching to process them in a clean and efficient way. 
-Here's a simulation where we define API responses using classes and handle them with the `match` statement 
+  
+- Here's a simulation where we define API responses using classes and handle them with the `match` statement 
 
 ```Python
 #define classes for different response types 
