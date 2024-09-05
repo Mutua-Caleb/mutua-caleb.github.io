@@ -37,6 +37,7 @@ test_value(3) #Output: Default match
 ```
 
 2. #### Matching Data sequence(e.g lists or tuples)
+
 ```Python
 def process_sequence(seq): 
     match seq: 
@@ -54,9 +55,10 @@ def process_sequence(seq):
 process_sequence([1,2,3]) # Output: matched list [1,2,3]
 process_sequence([1,4,5]) #Output: starts with 1, remaining: [4,5]
 ```
-Here, the pattern `[1, *rest]` is using **deconstruction** to match a list starting with `1` and assigning the rest of the list to the variable `rest` 
 
-3. ### Matching classes and object attributes 
+- Here, the pattern `[1, *rest]` is using **deconstruction** to match a list starting with `1` and assigning the rest of the list to the variable `rest` 
+
+1. ### Matching classes and object attributes 
 - When Matching classes, Python can match against the type of the object and its attributes. Here's where `__match_args__` comes into play
 
 ```Python 
