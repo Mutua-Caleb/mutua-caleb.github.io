@@ -154,5 +154,6 @@ process_api_response(response1)  # Output: Success! Received data: {'temperature
 process_api_response(response2)  # Output: Error: Invalid API key
 process_api_response(response3)  # Output: Resource 'User' not found.
 process_api_response(response4)  # Output: Server Error 503: Service Unavailable
+```
 
 
