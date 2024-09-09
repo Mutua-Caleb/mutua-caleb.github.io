@@ -117,13 +117,12 @@ print(x)
 
 
 #### Lambda Function 
-A **lambda** function is a small anonynous function defined using the `lambda` keyword. It can take any number of arguments but has a single expression
+A **lambda** function is a small anonymous function defined using the `lambda` keyword. It can take any number of arguments but has a single expression
 
-##### Syntax 
+##### **Syntax** 
 ```Python
 lambda arguments: expression
 ```
-
 
 ```python
 square = lambda x: x*x 
@@ -149,7 +148,7 @@ print(greet.__doc__)
 
 
 #### Higher-order functions
-- In python, functions are treated as first-class citizens, meaning they can be passed as arguments to other functions, returned fro`m other functions, or assigned to variables. 
+- In python, functions are treated as first-class citizens, meaning they can be passed as arguments to other functions, returned from other functions, or assigned to variables. 
 
 
 ```python
