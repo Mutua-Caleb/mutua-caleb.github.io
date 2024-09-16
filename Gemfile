@@ -7,8 +7,10 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+gem 'jekyll-seo-tag'
 gem "jekyll", "~> 4.3.3"
-gem 'jekyll-jupyter-notebook', '~> 0.0.4'
+gem "minimal-mistakes-jekyll"
+# gem 'jekyll-jupyter-notebook', '~> 0.0.4'
 # gem 'jekyll-notebooks'
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"

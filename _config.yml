@@ -33,9 +33,9 @@ email: calebkivindyo18@gmail.com
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-jupyter-notebook
-jupyter_notebook: 
-  prompt: true
+  - jekyll-seo-tag
+# jupyter_notebook: 
+#   prompt: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

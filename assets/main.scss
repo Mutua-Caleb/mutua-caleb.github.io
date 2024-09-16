@@ -3,6 +3,7 @@
 ---
 
 @import "minima";
+
 /* This is an example of CSS that might be added to assets/css/style.css */
 .dark-mode-button {
     /* Adjust position to align with the circled area */
@@ -42,5 +43,14 @@
     .dark-mode-button {
       margin-left: 10px; /* Adjust as needed */
     }
+    .content {
+      padding: 0 15px; // adjusting padding for smaller screens
+    }
   }
-  
+  .content {
+    max-width: 100%; 
+    word-wrap: break-word;
+  }
+  .post {
+    max-width: 100%;
+}
