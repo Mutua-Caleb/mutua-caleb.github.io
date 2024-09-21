@@ -2,6 +2,8 @@
 layout: post
 title: " Practicing Higher Order Functions and Regular Functions part 1 "
 date: 2024-09-09
+permalink: /posts/:title
+categories: [Reading Python]
 ---
 
 - let's create a simple student grading system where we use both regular functions and higher-order functions to implement different features 

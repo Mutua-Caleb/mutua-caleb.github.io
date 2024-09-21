@@ -2,6 +2,8 @@
 layout: post
 title: "Sample Shopping Cart System(HOF practice part 2)"
 date: 2024-09-10
+permalink: /posts/:title
+categories: [Reading Python]
 ---
 
 - Let's build a **shopping cart system** that allows users to add items, apply discounts, calculate total cost, and filter items based on price. 

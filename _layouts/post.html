@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    {% if page.alternate_title %}
+    <!-- <h3 class="post-alternate-title-or p-name">or...</h3> -->
+    <h3 class="post-alternate-title p-name">or: <i>{{ page.alternate_title | escape }}</i></h3>
+    {% endif %}
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      -
+      {% include reading_time.html %}
+      {%- if page.author -%}
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+          itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+    </p>
+    {%- if page.categories.size > 0 -%}
+    {%- for tag in page.categories -%}
+      <span class="post-tag"><a href={{ '/categories#' | append: tag }} class="tag-link">{{ tag | capitalize }}</a></span>
+    {%- endfor -%}
+    {%- endif -%}
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  <div class="commentbox"></div>
+  <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+  <script>commentBox('5769621709783040-proj')</script>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

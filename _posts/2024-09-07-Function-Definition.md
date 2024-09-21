@@ -2,6 +2,8 @@
 layout: post
 title: "Function Definition "
 date: 2024-09-07
+permalink: /posts/:title
+categories: [Reading Python]
 ---
 
 # Defining functions In Python

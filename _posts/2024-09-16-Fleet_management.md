@@ -2,6 +2,7 @@
 layout: post
 title: "Fleet Management System"
 date: 2024-09-16
+categories: [Python Projects]
 ---
 
 Imagine you're designing a fleet management system for a logistic company. You want to track vehicles, calculate efficiency, handle different kinds of data filtering, and aggregate results. This system needs to

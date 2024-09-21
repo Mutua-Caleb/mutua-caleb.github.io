@@ -2,6 +2,8 @@
 layout: post
 title: "HOF practice part 3"
 date: 2024-09-12
+permalink: /posts/:title
+categories: [Reading Python]
 ---
 
 - This program analyzes a dataset of employees working in a tech company, performing tasks like salary analysis, calculating bonuses, and filtering employees based on various criteria 

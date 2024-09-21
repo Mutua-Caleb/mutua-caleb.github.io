@@ -2,6 +2,8 @@
 layout: post
 title: "Higher Order Functions in Python"
 date: 2024-09-09
+permalink: /posts/:title
+categories: [Reading Python]
 ---
 
 # Higher Order Functions In Python 

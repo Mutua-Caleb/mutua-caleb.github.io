@@ -2,6 +2,8 @@
 layout: post
 title: "Python Data Model"
 date: 2024-09-13
+permalink: /posts/:title
+categories: [Reading Python]
 ---
 
 If you learned another object-oriented language before Python, you may have found it strange to use **len(collection)** instead of collection.len(). This apparent oddity is the tip of an iceberg that when properly understood, it is the ke to everything we call Pythonic 
