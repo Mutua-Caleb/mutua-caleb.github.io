@@ -31,6 +31,8 @@ email: calebkivindyo18@gmail.com
 
 # Build settings
 paginate: 5
+excerpt_ separator: <!--more-->
+show_excerpts: true
 permalink: pretty
 paginate_path: "/page_:num/"
 theme: minima

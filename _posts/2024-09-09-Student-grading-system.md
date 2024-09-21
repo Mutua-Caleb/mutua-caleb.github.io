@@ -8,6 +8,7 @@ categories: [Reading Python]
 
 - let's create a simple student grading system where we use both regular functions and higher-order functions to implement different features 
 - This project has the following features
+
   - **calculate total marks** for each student 
   - **determine grades** based on total marks 
   - **filter** students who passed(scored more than 40)

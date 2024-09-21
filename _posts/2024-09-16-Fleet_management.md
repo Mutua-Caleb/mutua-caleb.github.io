@@ -6,6 +6,7 @@ categories: [Python Projects]
 ---
 
 Imagine you're designing a fleet management system for a logistic company. You want to track vehicles, calculate efficiency, handle different kinds of data filtering, and aggregate results. This system needs to
+
 1. Represent vehicles using a class with special methods(dunder methods) to compare, add vehicles, calculate fuel efficiency. 
 2. Use HOF to apply actions on the vehicles dynamically, such as upgrading fuel capacity or mileage 
 3. Use functional programming to process large sets of data efficiently, using  `map`  `filter` ,  `reduce` 
