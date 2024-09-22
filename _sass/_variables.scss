@@ -1,0 +1,30 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+
+// Grays
+
+$backgroundColor: #1C1E2C;
+
+$highlightColor: #87f7dd;
+$highlightColor2: #44fea5;
+$highlightColor3: #f8395e;
+$highlightColor4: #f26532;
+
+$bodyFontColor: rgb(145, 147, 167);
+$headingFontColor: #fff;
+
+// Font stacks
+$bodyFont: Monaco;
+//$headingFont: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headingFont: "Hoefler Text";
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

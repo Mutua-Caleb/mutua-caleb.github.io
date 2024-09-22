@@ -107,12 +107,13 @@
    text-decoration: none;
  
    &:visited {
-     color: darken($brand-color, 15%);
+    //  color: darken($brand-color, 15%);
+     color: white;
    }
  
    &:hover {
      color: $text-color;
-     text-decoration: underline;
+     text-decoration: none;
    }
  
    .social-media-list &:hover {

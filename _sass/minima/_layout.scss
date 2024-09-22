@@ -20,7 +20,7 @@
   
     &,
     &:visited {
-      color: $grey-color-dark;
+      color: #87f7dd;;
     }
   }
   
@@ -37,7 +37,7 @@
     }
   
     .page-link {
-      color: $text-color;
+      color: #87f7dd;
       line-height: $base-line-height;
   
       // Gaps between nav items, but not on the last one
@@ -242,6 +242,7 @@
   .post-link {
     display: block;
     @include relative-font-size(1.5);
+    color: white; 
   }
   
   .post-tag::before {
@@ -262,7 +263,7 @@
     color: $grey-color-dark;
   
     &:visited {
-      color: $grey-color-dark;
+      color:#87f7dd;;
     }
   
     &:hover {
@@ -282,6 +283,7 @@
     @include relative-font-size(2.625);
     letter-spacing: -1px;
     line-height: 1;
+    color: white; 
   
     @include media-query($on-laptop) {
       @include relative-font-size(2.25);

@@ -3,6 +3,30 @@
 ---
 
 @import "minima";
+@import "highlights"; 
+@import "variables";
+@import "reset"; 
+$backgroundColor: #1C1E2C;
+
+$highlightColor: #87f7dd;
+$highlightColor2: #44fea5;
+$highlightColor3: #f8395e;
+$highlightColor4: #f26532;
+
+$bodyFontColor: rgb(145, 147, 167);
+$headingFontColor: #fff;
+
+// Font stacks
+$bodyFont: Monaco;
+//$headingFont: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headingFont: "Hoefler Text";
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
 
 /* This is an example of CSS that might be added to assets/css/style.css */
 .dark-mode-button {
@@ -53,4 +77,87 @@
   }
   .post {
     max-width: 100%;
+ }
+ html {
+  font-size: 100%;
+ }
+
+body {
+  background: $backgroundColor;
+  font: 18px/1.4 $bodyFont;
+  color: $bodyFontColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headingFont;
+  color: $headingFontColor;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+p {
+  color: $bodyFontColor;
+}
+ul li {
+  color: $bodyFontColor;
+}
+h1 {
+  font-size: 30px;
+
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $bodyFontColor;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $highlightColor;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    color: $highlightColor;
+    text-decoration: none;
+  }
+}
+.post-title {
+  color: white; 
+
+}
+
+.home-page .post-list h2 a {
+  color: white;
+}
+.post-link {
+  color: white; 
+
 }

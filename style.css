@@ -1,0 +1,312 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: $backgroundColor;
+  font: 18px/1.4 $bodyFont;
+  color: $bodyFontColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headingFont;
+  color: $headingFontColor;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $bodyFontColor;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $highlightColor;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    color: $highlightColor;
+  }
+}
+
+ul,
+ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul,
+ul ol,
+ul ul,
+ol ol {
+  margin: 0;
+}
+
+ul ul,
+ol ul {
+  list-style-type: circle;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $bodyFontColor;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $backgroundColor;
+  background: $highlightColor;
+}
+
+::selection {
+  color: $backgroundColor;
+  background: $highlightColor;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+//.clearfix:before,
+//.clearfix:after {
+//  content: " ";
+//  display: table;
+//}
+//
+//.clearfix:after {
+//  clear: both;
+//}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+$spacing: 20px;
+
+body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 4fr);
+  grid-template-rows: auto;
+  column-gap: $spacing;
+}
+
+header {
+  padding: $spacing;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: $headingFontColor;
+  cursor: pointer;
+  font-family: $headingFont;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $bodyFontColor;
+  font-size: 16px;
+
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+//
+// .main
+//
+
+#main {
+  border-left: 1px solid $highlightColor;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.post {
+  max-width: 1200px;
+
+  h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  h3 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  p {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+}
+
+.posts > .post {
+  padding-bottom: 2em;
+  grid-column: span 2;
+  border-bottom: 1px dashed $highlightColor;
+  border-right: 1px dashed $highlightColor;
+  max-width: none;
+}
+
+.posts > .post:first-child {
+  border: none;
+  grid-column: span 6;
+  border-bottom: 1px dashed $highlightColor;
+  text-align: center;
+  font-size: 1.5em;
+
+  h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    margin-top: $spacing;
+  }
+
+  .read-more {
+    font-size: 1.3em;
+  }
+}
+
+.posts > .post:nth-child(2),
+.posts > .post:nth-child(3) {
+  grid-column: span 3;
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+}
+
+.post {
+  padding: $spacing;
+
+  blockquote {
+    margin: 1.8em 0.8em;
+    border-left: 2px solid $headingFontColor;
+    padding: 0.1em 1em;
+    color: $headingFontColor;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .entry {
+    margin-bottom: 1em;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $bodyFontColor;
+}
+
+footer {
+  padding: $spacing 0;
+  text-align: center;
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";

@@ -4,9 +4,7 @@ title: "Higher Order Functions in Python"
 date: 2024-09-09
 permalink: /posts/:title
 categories: [Reading Python]
----
-
-# Higher Order Functions In Python 
+--- 
 - HOF take one or more functions as arguments, return a function, or both.
 -  This allows for more abstract and flexible programming patterns 
 

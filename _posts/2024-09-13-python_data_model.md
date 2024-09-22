@@ -23,7 +23,7 @@ If you learned another object-oriented language before Python, you may have foun
   
 
 
-```python
+```Python
 ranks = [str(n) for n in range(2,11)] + list('JQKA')
 print(ranks)
 suits = 'spades diamonds clubs hearts'.split()
@@ -35,7 +35,7 @@ print(suits)
 
 
 
-```python
+```Python
 import collections
 #Let's try to create 52 cards 
 Card = collections.namedtuple('Card', ['rank', 'suit'])
@@ -99,7 +99,7 @@ for card in _cards:
 
 
 
-```python
+```Python
 # The following is a very simple example but it demonstrates the power of implementing just two special methods __getitem__ and __len__ 
 import collections
 Card = collections.namedtuple('Card', ['rank', 'suit'])
@@ -130,7 +130,7 @@ beer_card
 
 
 
-```python
+```Python
 #let's try to call the len() function that we've implemented 
 deck = FrenchDeck()
 print(len(deck))
@@ -140,7 +140,7 @@ print(len(deck))
 
 
 
-```python
+```Python
 #Reading specific cards from the deck --say, the first or the last should be really easy to do 
 #This is due to the __getitem()__ method 
 print(deck[0])
@@ -152,7 +152,7 @@ print(deck[-1])
 
 
 
-```python
+```Python
 #should we create a method to pick a random card? No need. Python already has a function to do so
 from random import choice 
 print(choice(deck))
@@ -164,7 +164,7 @@ print(choice(deck))
 
 
 
-```python
+```Python
 ### But it gets better
 #Because our __getitem__ delegates to the [] operator of self._cards, our deck automatically supports slicing. here's how we look at the top three cards from a brand new deck and then pick just the aces by starting on index 12 and skipping 13 cards at a time 
 print(deck[:3])
@@ -176,7 +176,7 @@ print(deck[12::13])
 
 
 
-```python
+```Python
 #just by implementing the __getitem__ special method, our deck is also iterable: 
 for card in deck: 
     print(card)
@@ -237,7 +237,7 @@ for card in deck:
 
 
 
-```python
+```Python
 # the deck can also be iterated in reverse: 
 for card in reversed(deck): 
     print(card)
@@ -298,7 +298,7 @@ for card in reversed(deck):
 
 
 
-```python
+```Python
 # Iteration is often implicit. If a collection has __contains__ method, the in operator does a sequential scan. Case in point: it works with our FrenchDeck class because it is iterable 
 
 Card('Q', 'hearts') in deck
@@ -312,7 +312,7 @@ Card('Q', 'hearts') in deck
 
 
 
-```python
+```Python
 Card('7', 'beasts') in deck
 ```
 
@@ -329,7 +329,7 @@ Card('7', 'beasts') in deck
   
 
 
-```python
+```Python
 deck = FrenchDeck()
 suit_values = dict(spades=3, hearts=2, diamonds=1, clubs=0)
 
@@ -422,7 +422,7 @@ abs(v) #calculate the magnitude of vector=(sqrt(a*a + b*b))
 
 
 
-```python
+```Python
 #let's implement the vector class using __repr__, __abs__, __add__ and __mul__
 
 from math import hypot 
@@ -451,7 +451,7 @@ class Vector:
 ```
 
 
-```python
+```Python
 V = Vector(5, 0)
 V2 = Vector(4,5)
 
@@ -469,7 +469,7 @@ V3
 
 
 
-```python
+```Python
 V =Vector(3,4)
 print(abs(V))
 ```

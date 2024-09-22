@@ -5,11 +5,14 @@ date: 2024-09-05
 permalink: /posts/:title
 categories: [Reading Python]
 ---
-- The first time I encountered this term was while learning Ruby. I was terrified by it — "terrified" doesn’t even fully capture how scared I **felt**.
--  I was reading a highly technical blog at the time, and as a beginner, none of it made sense to me. Today, while reading about the match statement in the official Python tutorial, I couldn’t help but think, "Why does this just sound like simple if-elif-else statements?". 
--  However, I wasn't technically right. This blog attempts to show **the** powerful features of SPM 
+<p>
+ The first time I encountered this term was while learning Ruby. I was terrified by it — "terrified" doesn’t even fully capture how scared I **felt**.
+ I was reading a highly technical blog at the time, and as a beginner, none of it made sense to me. Today, while reading about the match statement in the official Python tutorial, I couldn’t help but think, "Why does this just sound like simple if-elif-else statements?". 
+  However, I wasn't technically right. This blog attempts to show the powerful features of SPM 
+</p>
 
-## Basic Concept of SPM
+
+### Basic Concept of SPM
 - The `match` statement allows you to compare a value(or a structure) against one or more patterns and execute code based on the first pattern that matches. 
 - The structure being matched can be simple types like numbers or strings, or more complex types like objects and collections 
 #### Syntax
