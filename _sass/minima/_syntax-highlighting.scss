@@ -1,14 +1,14 @@
-/**
- * Syntax highlighting styles
- */
+// /**
+//  * Syntax highlighting styles
+//  */
 
- //
-// VARIABLES
-//
+//  //
+// // VARIABLES
+// //
 
-// Colors
+// // Colors
 
-// Grays
+// // Grays
 
 
 $backgroundColor: #1C1E2C;
@@ -50,7 +50,7 @@ $regex: $highlightColor4;
   //-webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   //box-shadow: 3px 3px rgba(0,0,0,0.1);
   margin: 20px 0 20px 0;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 code {
