@@ -9,7 +9,7 @@
 // // Colors
 
 // // Grays
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 $backgroundColor: #1C1E2C;
 
@@ -52,10 +52,35 @@ $regex: $highlightColor4;
   margin: 20px 0 20px 0;
   // overflow: hidden;
 }
+pre,
+ code {
+   @include relative-font-size(0.9375);
+   border: 1px solid $grey-color-light;
+   border-radius: 3px;
+  //  background-color: none;
+   font-family: 'Fira Code', monospace; 
+ }
+ 
+ code {
+   padding: 1px 5px;
+   font-family: 'Fira Code', monospace; 
 
-code {
-  font-family: "Bitstream Vera Sans Mono", "Courier", monospace;
-}
+ }
+ 
+ pre {
+   padding: 8px 12px;
+   overflow-x: auto;
+ 
+   > code {
+     border: 0;
+     padding-right: 0;
+     padding-left: 0;
+    //  background-color: none;
+     font-family: 'Fira Code', monospace; ; 
+
+   }
+ }
+
 .highlight .c {
   color: $comments;
 } /* Comment */
