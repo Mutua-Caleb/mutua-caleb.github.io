@@ -11,7 +11,7 @@ Concurrency in Python refers to the ability of a program to perform multiple tas
 2. **Process-based concurrency** (Using the  `multiprocessing` module)
 3. **Asynchronous I/O**(Using the  `asyncio` module) 
 4. **Concurrent futures**(using the  `concurrent.futures` module). 
-
+****
 ## 1. Thread-based Concurrency
 
 - Threads allow parallel execution of tasks. A thread is lightweight unit of process execution, but Python's Global Interpreter Lock(GIL) ensures that only one thread runs at a time per python process, limiting true parallelism for CPU-bound tasks 
