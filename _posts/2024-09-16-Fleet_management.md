@@ -2,6 +2,7 @@
 layout: post
 title: "Fleet Management System"
 date: 2024-09-16
+permalink: /posts/:title
 categories: [Python Projects]
 ---
 

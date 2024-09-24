@@ -2,6 +2,7 @@
 layout: post
 title: "Introduction to Concurrency in Python"
 date: 2024-09-23
+permalink: /posts/:title
 categories: [Reading Python]
 ---
 

@@ -6,7 +6,6 @@ permalink: /posts/:title
 categories: [Reading Python]
 ---
 
-# Defining functions In Python
 In Python and Ruby, Functions are usually defined by `def` keyword. 
 
 #### Syntax

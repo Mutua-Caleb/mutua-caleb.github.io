@@ -2,6 +2,7 @@
 layout: post
 title: "Setting Up Jekyll"
 date: 2024-01-31
+permalink: /posts/:title
 categories: [Jekyll]
 ---
 I've been trying to make my own blog for 5 months! Usually, making a blog is the first thing you do when you start learning web development. I made a blog using Rails 3 years ago, but then there was a problem with Heroku. I didn't fix it because I was lazy. But today, I learned about Jekyll and made a new blog in just 2 hours. Jekyll is easy to set up. You can search for Jekyll online or ask ChatGPT for help. Once you set it up, type localhost:4000 in your web browser, and you'll see your blog's home page:
