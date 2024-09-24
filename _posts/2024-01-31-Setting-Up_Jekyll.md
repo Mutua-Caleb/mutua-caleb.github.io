@@ -4,7 +4,9 @@ title: "Setting Up Jekyll"
 date: 2024-01-31
 permalink: /posts/:title
 categories: [Jekyll]
+excerpt: "This post will attempt to help you set up your first jekyll blog. This is especially helpful if you are only hosting static pages without a database set up"
 ---
+
 I've been trying to make my own blog for 5 months! Usually, making a blog is the first thing you do when you start learning web development. I made a blog using Rails 3 years ago, but then there was a problem with Heroku. I didn't fix it because I was lazy. But today, I learned about Jekyll and made a new blog in just 2 hours. Jekyll is easy to set up. You can search for Jekyll online or ask ChatGPT for help. Once you set it up, type localhost:4000 in your web browser, and you'll see your blog's home page:
 ![Default Image](https://kinsta.com/wp-content/uploads/2023/03/minima-jekyll-theme.jpg)
 ****

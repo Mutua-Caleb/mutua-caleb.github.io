@@ -4,6 +4,7 @@ title: "Automatically Move files to the Right Folders"
 date: 2024-04-02
 permalink: /posts/:title
 categories: [Python Projects]
+excerpt: "This blog will attempt to explain how to organize your folders and files. You often download files from the internet all the time. If your default directory is Downloads, over time your files will increase so much that they will bring a significant amount of clutter"
 ---
 
 My computer is usually messy. When I download files from the internet, they all end up in my Windows Download folder. However, when I later check my Downloads folder, everything looks disorganized and cluttered. Honestly, this affects my ability to work. 

@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "More Customisation of Jekyll"
+title: "How to override default styles and templates in Jekyll"
 date: 2024-02-03
 permalink: /posts/:title
 categories: [Jekyll]
+excerpt: "This blog will attempt to explain how you can can override defaults and put your own templates"
 ---
+
 
 My first blog article was about customizing the footer and using a rather hacky way to prevent the title repeating on the footer. The first home page when you’ve created jekyll skeleton usually shows the title appearing twice on the footer. This is really annoying. I was really naive and thought that solution is just commenting out the lines that mentioned the title in `usr/local/lib/ruby/gems/2.6.0/gems/minima-2.5.1/_includes/footer.html`. By the way to access these files just fire up your terminal and type `bundle info --path minima`
 
