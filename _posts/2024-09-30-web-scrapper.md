@@ -2,7 +2,7 @@
 layout: post
 title: "A simple Web Scraper in Python"
 date: 2024-09-30
-permalink: permalink: /posts/:title
+permalink: /posts/:title
 categories: [Python Projects]
 excerpt: "This project implements a multithreaded web scraper that retrieves data from URLs, handles pagination"
 ---
