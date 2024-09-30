@@ -4,6 +4,7 @@ title: "A simple Web Scraper in Python"
 date: 2024-09-30
 permalink: permalink: /posts/:title
 categories: [Python Projects]
+excerpt: "This project implements a multithreaded web scraper that retrieves data from URLs, handles pagination"
 ---
 
 - The class  `WebScraper` implements a multithreaded web scraper that retrieves data from URLs, handles pagination, stores the data in an SQLite DB, and incorporates additional features such as custom exceptions, logging, decorators, shallow/deep copying, and data compression
