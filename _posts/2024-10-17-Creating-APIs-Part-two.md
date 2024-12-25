@@ -14,7 +14,7 @@ excerpt: "Flask-RESTful is a python extension for Flask that helps you build RES
 #### Here's how we can create an API with Flask-RESTful: 
 - The first step is installing Flask-RESTful:  `pip install flask-restful ` 
 - **Creating an API with Flask-RESTful:** Instead of using `@app.route()` for each endpoint, Flask-RESTful lets you create **resources** and define how they handle HTTP methods(GET, POST, PUT, DELETE). Let's see ane example
-
+.
 
 ```python
 from flask import Flask, jsonify, request 
